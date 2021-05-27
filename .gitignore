@@ -16,3 +16,4 @@ application/logs/*
 !application/logs/.htaccess
 /vendor/
 Admin_App/node_modules
+Admin_App/dist

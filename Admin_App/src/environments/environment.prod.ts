@@ -9,8 +9,8 @@
 */
 export const environment = {
   production: true,
-  baseURL: 'http://localhost/grocery_api/index.php/',
-  mediaURL: 'http://grocery-api.initstore.net/uploads/',
+  baseURL: 'https://indiangrocery-api.itsmagix.com/index.php/',
+  mediaURL: 'https://indiangrocery-api.itsmagix.com/uploads/',
   onesignal: {
     appId: 'd9d6c621-8d9d-4a2f-9098-cfae13036d8b',
     googleProjectNumber: '888633870378',
