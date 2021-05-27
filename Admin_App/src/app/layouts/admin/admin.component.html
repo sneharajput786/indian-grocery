@@ -38,10 +38,10 @@
             <ul [@mobileMenuTop]="isCollapsedMobile" class="nav-right" [ngClass]="isCollapsedMobile">
               <li class="header-notification lng-dropdown">
 
-                <a href="javascript:;" id="dropdown-active-item">
+                <!--<a href="javascript:;" id="dropdown-active-item">
                   <img [src]="api.mediaURL+selectedFlag" alt="" onError="this.src='assets/en.png'"
                     style="height: 15px;width: 15px;"> {{selectedName}}
-                </a>
+                </a>-->
                 <ul class="show-notification">
                   <li *ngFor="let item of util.languages">
                     <a (click)="changeLng(item)" data-lng="en">

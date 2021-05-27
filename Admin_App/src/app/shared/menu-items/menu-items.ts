@@ -54,24 +54,24 @@ const MENUITEMS = [
         type: 'link',
         icon: 'ti-location-pin'
       },
-      {
+      /*{
         state: 'stores',
         name: 'Stores',
         type: 'link',
         icon: 'ti-notepad'
-      },
+      },*/
       {
         state: 'users',
         name: 'Users',
         type: 'link',
         icon: 'ti-user'
       },
-      {
+      /*{
         state: 'drivers',
         name: 'Drivers',
         type: 'link',
         icon: 'ti-truck'
-      },
+      },*/
       {
         state: 'orders',
         name: 'Orders',
@@ -107,12 +107,12 @@ const MENUITEMS = [
   {
     label: 'Manage',
     main: [
-      {
+      /*{
         state: 'languages',
         name: 'Languages',
         type: 'link',
         icon: 'ti-world'
-      },
+      },*/
       {
         state: 'banners',
         name: 'Banners',

@@ -55,6 +55,13 @@ p {
   padding-right: 20px;
 }
 
+.navbar-logo .img-fluid{
+	max-width: 100%;
+    height: auto;
+	width: 180px;
+    padding: 10px;
+}
+
 /**====== Custom css end ======**/
 /**  ===================== Main-body css start
 ==========================  **/
@@ -21433,6 +21440,12 @@ span.value {
 }
 
 @media only screen and (max-width: 768px) {
+	.img-fluid {
+		max-width: 100%;
+		height: auto;
+		width: 154px !important;
+		padding: 0 !important;
+	}
   .card-body.list-tag ul li:last-child {
     margin-bottom: 20px;
   }
@@ -21456,13 +21469,19 @@ span.value {
   }
   .header-navbar .navbar-wrapper .navbar-logo {
     display: inherit;
-    padding-top: 13px;
+    padding-top: 0px;
     a {
       display: inline-block;
     }
     .mobile-options {
       top: 18px;
+	  .ti-more{
+		color:#23282d;
+	  }
     }
+	.ti-menu{
+		color:#23282d;
+	}
   }
   .main-body .page-wrapper .page-header-title {
     display: block;
@@ -26853,7 +26872,8 @@ body {
       background-color: #2c3e50;
     }
     &[navbar-theme="theme4"] {
-      background-color: #23282d;
+      //background-color: #23282d;
+      background-color: #fff;
     }
     &[navbar-theme="theme5"] {
       background-color: #0073aa;

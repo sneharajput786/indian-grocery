@@ -13,8 +13,8 @@
 
 export const environment = {
   production: false,
-  baseURL: 'http://localhost/indiangrocery/API/index.php/',
-  mediaURL: 'http://localhost/indiangrocery/API/uploads/',
+  baseURL: 'http://localhost/indian-grocery/API/index.php/',
+  mediaURL: 'http://localhost/indian-grocery/API/uploads/',
   onesignal: {
     appId: '67ce0dc4-d91b-47b1-9461-e5435a59ef4d',
     googleProjectNumber: '62057288644',

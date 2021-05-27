@@ -38,18 +38,18 @@ const routes: Routes = [
         path: 'users',
         loadChildren: () => import('./pages/users/users.module').then(m => m.UsersModule)
       },
-      {
+      /*{
         path: 'stores',
         loadChildren: () => import('./pages/stores/stores.module').then(m => m.StoresModule)
-      },
+      },*/
       {
         path: 'orders',
         loadChildren: () => import('./pages/orders/orders.module').then(m => m.OrdersModule)
       },
-      {
+      /*{
         path: 'drivers',
         loadChildren: () => import('./pages/drivers/drivers.module').then(m => m.DriversModule)
-      },
+      },*/
       {
         path: 'offers',
         loadChildren: () => import('./pages/offers/offers.module').then(m => m.OffersModule)
@@ -75,18 +75,18 @@ const routes: Routes = [
         path: 'manage-users',
         loadChildren: () => import('./pages/manage-users/manage-users.module').then(m => m.ManageUsersModule)
       },
-      {
+      /*{
         path: 'manage-stores',
         loadChildren: () => import('./pages/manage-stores/manage-stores.module').then(m => m.ManageStoresModule)
-      },
+      },*/
       {
         path: 'manage-orders',
         loadChildren: () => import('./pages/manage-orders/manage-orders.module').then(m => m.ManageOrdersModule)
       },
-      {
+      /*{
         path: 'manage-drivers',
         loadChildren: () => import('./pages/manage-drivers/manage-drivers.module').then(m => m.ManageDriversModule)
-      },
+      },*/
       {
         path: 'manage-offers',
         loadChildren: () => import('./pages/manage-offers/manage-offers.module').then(m => m.ManageOffersModule)
@@ -119,14 +119,14 @@ const routes: Routes = [
         path: 'manage-sub-category',
         loadChildren: () => import('./pages/manage-sub-category/manage-sub-category.module').then(m => m.ManageSubCategoryModule)
       },
-      {
+     /* {
         path: 'languages',
         loadChildren: () => import('./pages/languages/languages.module').then(m => m.LanguagesModule)
-      },
-      {
+      },*/
+      /*{
         path: 'manage-languages',
         loadChildren: () => import('./pages/manage-languages/manage-languages.module').then(m => m.ManageLanguagesModule)
-      },
+      },*/
       {
         path: 'manage-app',
         loadChildren: () => import('./pages/manage-app/manage-app.module').then(m => m.ManageAppModule)
